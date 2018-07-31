@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Assignment_1' do
+pod 'Alamofire', '~> 4.5'
+# Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+use_frameworks!
+
+  # Pods for Assignment_1
+pod 'SwiftyJSON', '3.0.0'
+pod 'SDWebImage'
+
+  target 'Assignment_1Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Assignment_1UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
